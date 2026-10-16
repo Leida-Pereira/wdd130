@@ -1,0 +1,92 @@
+
+
+  
+:root {
+  --primary-color: #005f73;    /* Azul río / Turquesa profundo */
+  --secondary-color: #ca6702;  /* Naranja calidez oriental / Sol */
+  --accent1-color: #0a9396;    /* Verde agua / Vegetación ribereña */
+  --accent2-color: #e9d8a6;    /* Arena clara / Dorado */
+  --text-color: #1d3557;       /* Azul oscuro para texto */
+  
+  --heading-font: "Georgia", "Times New Roman", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* Restablecimiento universal del Box Model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  background-color: #fafafa;
+}
+
+/* Centrado y ancho fijo para los contenedores principales */
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* Encabezados */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Espaciado regular para elementos de bloque */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Estilos de navegación e íconos sociales */
+.socialmedia a {
+  text-decoration: none;
+}
+
+/* Configuración de la sección Hero */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Título de la empresa superpuesto en la imagen Hero */
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.85;
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+/* Tarjeta / Artículo superpuesto en la imagen Hero */
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 16px;
+  border-radius: 4px;
+}
+
+/* Imagen dentro del artículo flotada a la derecha */
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 12px;
+  border-radius: 4px;
+}

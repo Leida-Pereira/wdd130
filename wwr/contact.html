@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Costa Oriente River Rafting - Río Manzanares</title>
+  <meta name="description" content="Ponte en contacto con Costa Oriente River Rafting en Cumaná, Estado Sucre. Realiza consultas sobre nuestros recorridos, reservas y aventuras en el Río Manzanares.">
+  <meta name="author" content="Leida Josefina Pereira Hidrogo">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" alt="Logotipo Costa Oriente River Rafting">
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre Nosotros</a></li>
+        <li><a href="trips.html">Viajes</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Costa Oriente River Rafting </h1>
+    
+    <section class="company-address-info">
+      <p>22 Main Castellón Street</p>
+      <p>Cumaná, Sucre</p>
+      <p><a href="tel:+58 0412-954 73 69">+58 0412-954 73 69</a></p>
+      <p><a href="mailto:costaoriente1993@gmail.com">costaoriente1993@gmail.com</a></p>
+    </section>
+
+    <!-- Mapa y Formulario lado a lado según el wireframe -->
+    <section class="contact-grid-section">
+      <div class="map-container">
+        <!-- Mapa de Google sin estilo en línea prohibido -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d245.21856946575227!2d-64.1805!3d10.461422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3271001f1f8593%3A0x66b870f911ad338c!2sCalle%20castellon%2322!5e0!3m2!1ses!2sve!4v1791661525459!5m2!1ses!2sve" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+
+      <div class="contact-form-container">
+        <h2>Envíanos un Mensaje</h2>
+        <form action="#" method="post">
+          
+          <div class="form-item">
+            <label for="fullname">Name</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="Placeholder">
+          </div>
+
+          <div class="form-item">
+            <label for="useremail">Email</label>
+            <input type="email" id="useremail" name="useremail" required placeholder="Placeholder">
+          </div>
+
+          <fieldset class="form-item radio-fieldset">
+            <legend>Purpose</legend>
+            <div class="radio-group">
+              <label for="general"><input type="radio" id="general" name="purpose" value="general" checked> General Inquiry</label>
+              <label for="booking"><input type="radio" id="booking" name="purpose" value="booking"> Reservation Question</label>
+              <label for="suggestion"><input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestion</label>
+            </div>
+          </fieldset>
+
+          <div class="form-item">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Type here"></textarea>
+          </div>
+
+          <div class="form-item checkbox-item">
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+          </div>
+
+          <button type="submit" class="submit-btn">Get in Touch!</button>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- Sección de empleados con fotos más pequeñas y tamaño uniforme -->
+    <section class="employee-profiles">
+      <h2>We Are Here to Serve You</h2>
+      <div class="employee-grid">
+        <figure>
+          <img src="empleado1.jpg" alt="Fotografía de la Coordinadora General y Vocalista">
+          <figcaption>
+            <h3>Leida Pereira</h3>
+            <p>Coordinadora de Producción y Vocalista Principal</p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="empleado2.jpg" alt="Fotografía del Director Musical y Guía de Río">
+          <figcaption>
+            <h3>Maestro David Pereira</h3>
+            <p>Director Musical y Jefe de Navegación en Río</p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="empleado3.jpg" alt="Fotografía del Integrante del Equipo y Guía Turístico">
+          <figcaption>
+            <h3> Eileen Martínez </h3>
+            <p>Instructora de Seguridad y Músico Percusionista</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 | Costa Oriente River Rafting | Leida Josefina Pereira Hidrogo</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <img src="facebook.jpg" alt="Icono de Facebook" class="social-icon">
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <img src="linkedin.jpg" alt="Icono de LinkedIn" class="social-icon">
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <img src="instagram.jpg" alt="Icono de Instagram" class="social-icon">
+      </a>
+    </nav>
+  </footer>
+
+</body>
+</html>

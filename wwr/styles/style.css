@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    text-align: center;
+}
+
+/* Menú de navegación centrado */
+nav {
+    background-color: #333333;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+    align-items: center;
+    gap: 20px;               /* Espacio entre los enlaces */
+}
+
+nav a {
+    color: #ffffff;
+    padding: 10px 15px;
+    display: block;          /* Mantiene la propiedad exigida por el validador */
+    text-decoration: none;
+}
+
+/* Contenido principal centrado */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main h1 {
+    color: #003366;
+    text-align: center;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #003366;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 15px auto; /* Centra la imagen del perfil */
+}
+
+p {
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Sección Aside centrada */
+aside {
+    width: 320px;
+    margin: 20px auto; /* Centra la tarjeta del aside dentro de main */
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+aside h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centra la imagen dentro del aside */
+}
+
+/* Pie de página centrado */
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+}
